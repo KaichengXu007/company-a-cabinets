@@ -87,6 +87,17 @@ Built with Tailwind CSS and shadcn/ui for a clean, responsive interface.
 
 This section explains how both regular users and administrators interact with the application.
 
+Admin account:
+
+email: admin@company.com
+
+password: admin123
+
+Test user account:
+
+email: test@user.com
+
+password: test123
 ---
 
 ### 1. Home Page – Browsing Products
