@@ -178,10 +178,13 @@ _Screenshot: Admin Users Page_
 1. **Clone & Install**  
 
 git clone <repo-url>
+
 cd company-a-cabinets
+
 npm install
 
 2. **Environment Variables**
+
 Copy .env.example ➜ .env. Variables includes:
 
 DATABASE_URL, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET, RESEND_API_KEY, ADMIN_EMAIL, NEXTAUTH_SECRET
@@ -189,6 +192,7 @@ DATABASE_URL, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET, 
 3. **Database Initialization**
 
 npx prisma db push
+
 npx prisma generate
 
 4. **Cloudinary Setup**
